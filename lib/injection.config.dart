@@ -14,10 +14,11 @@ import 'package:injectable/injectable.dart' as _i2;
 
 import 'Custom%20Widgets/ExampleCustomWidget/ExampleCustomInteractor.dart'
     as _i3;
-import 'Navigator/Navi.dart' as _i6;
+import 'Navigator/Navi.dart' as _i7;
 import 'Screens/Example/ExampleInteractor.dart' as _i4;
 import 'Screens/Example/ExampleRepo.dart' as _i5;
-import 'Screens/Second/SecondInteractor.dart' as _i7;
+import 'Screens/Home/HomeInteractor.dart' as _i6;
+import 'Screens/Second/SecondInteractor.dart' as _i8;
 
 extension GetItInjectableX on _i1.GetIt {
 // initializes the registration of main-scope dependencies inside of GetIt
@@ -34,8 +35,9 @@ extension GetItInjectableX on _i1.GetIt {
         () => _i3.ExampleCustomInteractor());
     gh.factory<_i4.ExampleInteractor>(() => _i4.ExampleInteractor());
     gh.factory<_i5.ExampleRepo>(() => _i5.ExampleRepo());
-    gh.singleton<_i6.Navi>(_i6.Navi());
-    gh.factory<_i7.SecondInteractor>(() => _i7.SecondInteractor());
+    gh.factory<_i6.HomeInteractor>(() => _i6.HomeInteractor());
+    gh.singleton<_i7.Navi>(_i7.Navi());
+    gh.factory<_i8.SecondInteractor>(() => _i8.SecondInteractor());
     return this;
   }
 }

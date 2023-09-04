@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Sdsearle\'s site',
       theme: lightTheme,
       darkTheme: darkTheme,
       initialRoute: _navi.initial,

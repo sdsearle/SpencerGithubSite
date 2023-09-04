@@ -4,6 +4,7 @@
 
 import 'package:fimber/fimber.dart';
 import 'package:flutter/cupertino.dart';
+import 'package:sdsearle_github/Screens/Home/HomeWidget.dart';
 import 'package:sdsearle_github/res/Strings.dart';
 import 'package:injectable/injectable.dart';
 
@@ -29,9 +30,10 @@ class Navi{
   get initial => routes[0];
 
   void setCurrentContext(BuildContext context){
-
-    Fimber.d("Navi Hash: $hashCode");
-    _contextStack.add(context);
+    if(_contextStack.isEmpty || _currentContext != context) {
+      Fimber.d("Navi Hash: $hashCode");
+      _contextStack.add(context);
+    }
   }
 
   void back(){
@@ -47,8 +49,8 @@ class Navi{
   }
 
   Map<String, Widget Function(BuildContext)> routes = {
-    '/' : (context) => const ExampleWidget(title: Strings.title),
-    '/second' : (context) => const SecondWidget(),
+    '/' : (context) => const HomeWidget(),
+
   };
 
 }
