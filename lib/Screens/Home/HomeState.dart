@@ -12,14 +12,14 @@ import 'HomeInteractor.dart';
  */
 
 class HomeState extends BaseState<HomeWidget> {
-
   @override
   covariant HomeInteractor interactor = getIt<HomeInteractor>();
 
   @override
   Widget build(BuildContext context) {
     super.build(context);
-    return HomeScaffold(updater: updater,
+    return HomeScaffold(
+        updater: updater,
         context: context,
         theme: Theme.of(context),
         interactor: interactor);
