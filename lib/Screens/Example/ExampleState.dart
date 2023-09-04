@@ -4,8 +4,8 @@
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_back_bone/Screens/Example/ExampleInteractor.dart';
-import 'package:flutter_back_bone/injection.dart';
+import 'package:sdsearle_github/Screens/Example/ExampleInteractor.dart';
+import 'package:sdsearle_github/injection.dart';
 
 import '../../BaseClasses/BaseInteractor.dart';
 import 'ExampleScaffold.dart';

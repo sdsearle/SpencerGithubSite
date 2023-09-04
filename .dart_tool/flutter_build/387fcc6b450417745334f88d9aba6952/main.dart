@@ -1,5 +1,5 @@
 // @dart=3.0
-// Flutter web bootstrap script for package:flutter_back_bone/main.dart.
+// Flutter web bootstrap script for package:sdsearle_github/main.dart.
 //
 // Generated file. Do not edit.
 //
@@ -9,7 +9,7 @@
 import 'dart:ui' as ui;
 import 'dart:async';
 
-import 'package:flutter_back_bone/main.dart' as entrypoint;
+import 'package:sdsearle_github/main.dart' as entrypoint;
 import 'web_plugin_registrant.dart' as pluginRegistrant;
 
 typedef _UnaryFunction = dynamic Function(List<String> args);

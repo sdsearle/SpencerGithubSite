@@ -1,4 +1,4 @@
-import 'package:flutter_back_bone/BaseClasses/BaseInteractor.dart';
+import 'package:sdsearle_github/BaseClasses/BaseInteractor.dart';
 import 'package:injectable/injectable.dart';
 
 /**

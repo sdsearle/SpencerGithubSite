@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.zol" "\0"
-            VALUE "FileDescription", "flutter_back_bone" "\0"
+            VALUE "FileDescription", "sdsearle_github" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "flutter_back_bone" "\0"
+            VALUE "InternalName", "sdsearle_github" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2023 com.zol. All rights reserved." "\0"
-            VALUE "OriginalFilename", "flutter_back_bone.exe" "\0"
-            VALUE "ProductName", "flutter_back_bone" "\0"
+            VALUE "OriginalFilename", "sdsearle_github.exe" "\0"
+            VALUE "ProductName", "sdsearle_github" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

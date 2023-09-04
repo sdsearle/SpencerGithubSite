@@ -2,7 +2,7 @@
  * Created by sdsearle on 8/20/2023.
  */
 
-import 'package:flutter_back_bone/BaseClasses/BaseWidget.dart';
+import 'package:sdsearle_github/BaseClasses/BaseWidget.dart';
 import '../../BaseClasses/BaseState.dart';
 import 'ExampleState.dart';
 

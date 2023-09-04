@@ -4,9 +4,9 @@
 
 import 'package:fimber/fimber.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_back_bone/Screens/Second/SecondInteractor.dart';
-import 'package:flutter_back_bone/BaseClasses/BaseScaffold.dart';
-import 'package:flutter_back_bone/injection.dart';
+import 'package:sdsearle_github/Screens/Second/SecondInteractor.dart';
+import 'package:sdsearle_github/BaseClasses/BaseScaffold.dart';
+import 'package:sdsearle_github/injection.dart';
 
 class SecondScaffold extends BaseScaffold {
   //const ExampleScaffold({super.key, required this.theme, required this.exampleInteractor});

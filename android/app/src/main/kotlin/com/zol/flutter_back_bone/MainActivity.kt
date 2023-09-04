@@ -1,4 +1,4 @@
-package com.zol.flutter_back_bone
+package com.zol.sdsearle_github
 
 import io.flutter.embedding.android.FlutterActivity
 

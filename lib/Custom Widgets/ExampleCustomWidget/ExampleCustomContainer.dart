@@ -5,7 +5,7 @@
 import 'package:fimber/fimber.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_back_bone/Custom%20Widgets/ExampleCustomWidget/ExampleCustomInteractor.dart';
+import 'package:sdsearle_github/Custom%20Widgets/ExampleCustomWidget/ExampleCustomInteractor.dart';
 
 /**
  * Created by Spencer Searle, github: sdsearle on 8/21/2023.

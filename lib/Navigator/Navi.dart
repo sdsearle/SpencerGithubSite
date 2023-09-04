@@ -4,7 +4,7 @@
 
 import 'package:fimber/fimber.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:flutter_back_bone/res/Strings.dart';
+import 'package:sdsearle_github/res/Strings.dart';
 import 'package:injectable/injectable.dart';
 
 import '../Screens/Example/ExampleWidget.dart';

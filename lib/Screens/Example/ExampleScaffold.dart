@@ -3,9 +3,9 @@
  */
 
 import 'package:flutter/material.dart';
-import 'package:flutter_back_bone/Screens/Example/ExampleInteractor.dart';
-import 'package:flutter_back_bone/BaseClasses/BaseScaffold.dart';
-import 'package:flutter_back_bone/injection.dart';
+import 'package:sdsearle_github/Screens/Example/ExampleInteractor.dart';
+import 'package:sdsearle_github/BaseClasses/BaseScaffold.dart';
+import 'package:sdsearle_github/injection.dart';
 
 class ExampleScaffold extends BaseScaffold {
   const ExampleScaffold({super.key, required this.theme, required super.updater, required super.context, required this.interactor});

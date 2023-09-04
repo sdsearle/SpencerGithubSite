@@ -4,7 +4,7 @@
 
 import 'package:fimber/fimber.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:flutter_back_bone/BaseClasses/BaseInteractor.dart';
+import 'package:sdsearle_github/BaseClasses/BaseInteractor.dart';
 
 import '../Navigator/Navi.dart';
 import 'BaseWidget.dart';
