@@ -8,10 +8,12 @@ import 'package:sdsearle_github/BaseClasses/BaseScaffold.dart';
 import 'package:sdsearle_github/injection.dart';
 
 class ExampleScaffold extends BaseScaffold {
-  const ExampleScaffold({super.key, required this.theme, required super.updater, required super.context, required this.interactor});
+  ExampleScaffold({super.key, required this.theme, required super.updater, required super.context, required this.interactor}) : super(interactor: interactor);
 
   final ThemeData theme;
-  final ExampleInteractor interactor;
+
+  @override
+  ExampleInteractor interactor;
 
   int get counter => 0;
 

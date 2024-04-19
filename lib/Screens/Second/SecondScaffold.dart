@@ -10,22 +10,27 @@ import 'package:sdsearle_github/injection.dart';
 
 class SecondScaffold extends BaseScaffold {
   //const ExampleScaffold({super.key, required this.theme, required this.exampleInteractor});
-  SecondScaffold({super.key, required this.theme, required super.context, required super.updater, required this.interactor});
+  SecondScaffold({super.key, required this.theme, required super.context, required super.updater, required this.interactor}) : super(interactor: interactor){
+    leading = BackButton(
+             onPressed: ()=> interactor.back(),
+           );
+  }
 
   final ThemeData theme;
 
+  @override
   SecondInteractor interactor;
 
   int get counter => 0;
 
-  @override
-  PreferredSizeWidget? get appBar => AppBar(
-    backgroundColor: theme.colorScheme.inversePrimary,
-    title: const Text("Second Screen"),
-    leading: BackButton(
-      onPressed: ()=> interactor.back(),
-    ),
-  );
+  // @override
+  // PreferredSizeWidget? get appBar => AppBar(
+  //   backgroundColor: theme.colorScheme.inversePrimary,
+  //   title: const Text("Second Screen"),
+  //   leading: BackButton(
+  //     onPressed: ()=> interactor.back(),
+  //   ),
+  // );
 
   @override
   Widget? get body => Center(

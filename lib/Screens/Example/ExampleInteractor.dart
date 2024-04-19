@@ -11,7 +11,6 @@ import 'package:injectable/injectable.dart';
 @injectable
 class ExampleInteractor extends BaseInteractor{
   final ExampleRepo _exampleRepo = getIt<ExampleRepo>();
-  final Navi _navi = getIt<Navi>();
 
   int getCounter() {
     // Get the counter value from the repository.
@@ -24,6 +23,6 @@ class ExampleInteractor extends BaseInteractor{
   }
 
   goToSecondScreen() {
-    _navi.goToSecondScreen();
+    navi.goToSecondScreen();
   }
 }

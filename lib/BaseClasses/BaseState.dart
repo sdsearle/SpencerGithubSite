@@ -18,9 +18,9 @@ class BaseState<T> extends State<BaseWidget> {
   @override
   void initState() {
     super.initState();
-    _navi.setCurrentContext(context);
     // Log the initState lifecycle step.
     Fimber.d("initState");
+    _navi.setCurrentContext(context);
   }
 
   @override
@@ -28,6 +28,7 @@ class BaseState<T> extends State<BaseWidget> {
     super.dispose();
     // Log the dispose lifecycle step.
     Fimber.d("dispose");
+    _navi.popCurrent(context);
   }
 
   @override

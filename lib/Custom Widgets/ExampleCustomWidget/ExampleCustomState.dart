@@ -2,8 +2,6 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:sdsearle_github/Custom%20Widgets/ExampleCustomWidget/ExampleCustomContainer.dart';
 import 'package:sdsearle_github/Custom%20Widgets/ExampleCustomWidget/ExampleCustomInteractor.dart';
-import 'package:sdsearle_github/BaseClasses/BaseInteractor.dart';
-
 import '../../BaseClasses/BaseState.dart';
 import '../../injection.dart';
 import 'ExampleCustomWidget.dart';
